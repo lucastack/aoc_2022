@@ -9,9 +9,9 @@ int main()
 	size_t len = 100;
 	ssize_t read;
 	char opp_choice, our_choice;
+	int total_score;
 	
-	int type_score, competition_score, total_score;
-		
+
 	fp = fopen("input.txt", "r");
 	if (fp == NULL){
 		exit(EXIT_FAILURE);
