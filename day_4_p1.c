@@ -2,9 +2,6 @@
 #include <stdlib.h>
 
 
-#define LINE_MAX_LEN 100
-
-
 int main()
 {
 	FILE *input_file;
